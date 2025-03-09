@@ -26,6 +26,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   align-items: start;
+  overflow: hidden;
   position: relative;
 }
 .head__logo {
@@ -138,4 +139,48 @@ button {
   -webkit-backdrop-filter: blur(50px);
           backdrop-filter: blur(50px);
   background: rgb(188, 236, 48);
+}
+
+.game-box {
+  position: absolute;
+  width: 1440px;
+  height: 1470px;
+  left: 0;
+  top: 800px;
+  background: rgb(32, 32, 39);
+}
+.game-box__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24;
+  padding: 0px;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 72px 0px;
+  margin-left: 119px;
+}
+.game-box__heading {
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-family: inherit;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.game-box__paragraph {
+  align-items: center;
+  order: 1;
+  flex-grow: 0;
+  margin: 24px 0px;
+  color: rgb(255, 255, 255);
+  font-family: inherit;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
 }/*# sourceMappingURL=style.css.map */
