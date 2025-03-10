@@ -23,6 +23,7 @@ button {
 
 .head {
     height: 800px;
+    width: 100%;
     background:
      rgb(225, 255, 143);
      background-repeat: no-repeat;
@@ -83,6 +84,7 @@ button {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: flex-start;
+    padding-left: 120px;
     padding-top: 196px;
     
     &__heading {
@@ -155,23 +157,22 @@ button {
 }
 
 .game-box {
-    position: absolute;
+    position: relative;
     height: 1470px;
     width: 100%;
-    left: 0;
-    top: 800px;
     background: rgb(32, 32, 39);
+    padding-left: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24;
+    align-self: stretch;
 
     &__desc {
         display: flex;
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        gap: 24;
-        padding: 0px;
-        align-self: stretch;
-        flex-grow: 0;
-        margin: 72px 0px;
+        padding-top: 94px;
     }
 
     &__heading {

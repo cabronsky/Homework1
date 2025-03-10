@@ -23,6 +23,7 @@ button {
 
 .head {
   height: 800px;
+  width: 100%;
   background: rgb(225, 255, 143);
   background-repeat: no-repeat;
   overflow: hidden;
@@ -76,6 +77,7 @@ button {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: flex-start;
+  padding-left: 120px;
   padding-top: 196px;
 }
 .header__heading {
@@ -140,23 +142,22 @@ button {
 }
 
 .game-box {
-  position: absolute;
+  position: relative;
   height: 1470px;
   width: 100%;
-  left: 0;
-  top: 800px;
   background: rgb(32, 32, 39);
-}
-.game-box__desc {
+  padding-left: 120px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 24;
-  padding: 0px;
   align-self: stretch;
-  flex-grow: 0;
-  margin: 72px 0px;
+}
+.game-box__desc {
+  display: flex;
+  flex-direction: column;
+  padding-top: 94px;
 }
 .game-box__heading {
   align-items: center;
