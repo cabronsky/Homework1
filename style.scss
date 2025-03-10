@@ -34,19 +34,18 @@ button {
 
     &__logo {
         position: absolute;
-        width: 1074px;
-        height: 1131px;
-        left: 854px;
-        right: -488px;
-        top: -333px;
-        bottom: 3px;
+        width: calc(100% - 366px);
+        height: calc(100% + 331px);
+        left: calc(100% - 586px);
+        right: calc(100% + 488px);
+        top: calc(100% - 1133px);
 
         &_smallstar1 {
             position: absolute;
             width: 57px;
             height: 57px;
             left: 63px;
-            top: 94px;
+            top: calc(100% - 706px);
             color: 
             rgb(188, 236, 48);
         }
@@ -55,8 +54,8 @@ button {
             position: absolute;
             width: 83px;
             height: 83px;
-            left: 1013px;
-            top: 568px;
+            left: calc(100% - 427px);
+            top: calc(100% - 232px);
         }
 
         &_smallstar3 {
@@ -64,15 +63,15 @@ button {
             width: 35px;
             height: 35px;
             left: 156px;
-            top: 69px;
+            top: calc(100% - 731px);
         }
 
         &_smallstar4 {
             position: absolute;
             width: 37px;
             height: 37px;
-            left: 948px;
-            top: 538px;
+            left: calc(100% - 492px);
+            top: calc(100% - 262px);
             box-sizing: border-box;
             color: rgb(188, 236, 48);
         }
@@ -168,6 +167,34 @@ button {
     align-items: flex-start;
     gap: 24;
     align-self: stretch;
+    overflow: hidden;
+
+    &__star1 {
+        position: absolute;
+        width: 585px;
+        height: 585px;
+        left: 983px;
+        top: 94px;
+        transform: rotate(-6.77deg);
+    }
+
+    &__star2 {
+        position: absolute;
+        width: 55px;
+        height: 55px;
+        left: 45px;
+        top: calc(100% - 648px);
+        transform: rotate(5.45deg);
+    }
+
+    &__star3 {
+        position: absolute;
+        width: 31px;
+        height: 31px;
+        left: 28px;
+        top: calc(100% - 700px);
+        transform: rotate(5.45deg);
+    }
 
     &__desc {
         display: flex;
