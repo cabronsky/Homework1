@@ -21,15 +21,10 @@ button {
   padding-right: calc(50% - 600px);
 }
 
-.top {
-  background-color: rgb(225, 255, 143);
-}
-
 .head {
-  max-width: 1440px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: start;
+  height: 800px;
+  background: rgb(225, 255, 143);
+  background-repeat: no-repeat;
   overflow: hidden;
   position: relative;
   margin-left: auto;
@@ -81,9 +76,7 @@ button {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 0px;
-  margin-left: 120px;
-  margin-top: 196px;
+  padding-top: 196px;
 }
 .header__heading {
   color: rgb(32, 32, 39);
@@ -148,6 +141,7 @@ button {
 
 .game-box {
   position: absolute;
+  height: 1470px;
   width: 100%;
   left: 0;
   top: 800px;
@@ -163,7 +157,6 @@ button {
   align-self: stretch;
   flex-grow: 0;
   margin: 72px 0px;
-  margin-left: 119px;
 }
 .game-box__heading {
   align-items: center;
