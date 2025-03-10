@@ -158,8 +158,8 @@ button {
   position: absolute;
   width: 585px;
   height: 585px;
-  left: 983px;
-  top: 94px;
+  left: calc(100% - 457px);
+  top: calc(100% - 1324px);
   transform: rotate(-6.77deg);
 }
 .game-box__star2 {
@@ -205,4 +205,11 @@ button {
   line-height: 32px;
   letter-spacing: 0px;
   text-align: left;
+}
+
+.game {
+  display: grid;
+  gap: 32px;
+  grid-template-columns: repeat(12, 1fr);
+  margin-top: 64px;
 }/*# sourceMappingURL=style.css.map */
