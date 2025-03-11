@@ -143,15 +143,12 @@ button {
 .game-box {
   position: relative;
   height: 1470px;
-  width: 100%;
   background: rgb(32, 32, 39);
   padding-left: 120px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
   gap: 24;
-  align-self: stretch;
   overflow: hidden;
 }
 .game-box__star1 {
@@ -211,5 +208,86 @@ button {
   display: grid;
   gap: 32px;
   grid-template-columns: repeat(12, 1fr);
+  justify-content: space-between;
   margin-top: 64px;
+}
+.game__item {
+  height: 473px;
+  grid-column: span 4;
+  background-color: white;
+  color: black;
+  font-style: normal;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 41px;
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  z-index: 1;
+  border-radius: 30px;
+  text-decoration: none;
+}
+.game__item_big {
+  height: 512px;
+}
+.game__item_biggest {
+  height: 551px;
+  margin-top: -32px;
+}
+.game__item_1 {
+  background-image: url(./gamesitepics/game_1.svg);
+  background-repeat: no-repeat;
+}
+.game__item_2 {
+  background-image: url(./gamesitepics/game_2.svg);
+  background-repeat: no-repeat;
+}
+.game__item_3 {
+  background-image: url(./gamesitepics/game_3.svg);
+  background-repeat: no-repeat;
+}
+.game__item_4 {
+  background-image: url(./gamesitepics/game_4.svg);
+  background-repeat: no-repeat;
+}
+.game__item_5 {
+  background-image: url(./gamesitepics/game_5.svg);
+  background-repeat: no-repeat;
+}
+.game__item_6 {
+  background-image: url(./gamesitepics/game_6.svg);
+  background-repeat: no-repeat;
+}
+.game__item-box {
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 32px 32px 36px 32px;
+}
+.game__item-number {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 8px 16px 10px 16px;
+  border-radius: 52.58px;
+  background: rgb(247, 247, 247);
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.game__item-name {
+  color: rgb(32, 32, 39);
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0px;
+  text-align: left;
 }/*# sourceMappingURL=style.css.map */
