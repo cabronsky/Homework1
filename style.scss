@@ -331,4 +331,8 @@ button {
             text-align: left;
         }
     }
+
+    &__item:hover {
+        border-radius: 0px;
+    }
 }
