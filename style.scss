@@ -32,49 +32,48 @@ button {
     margin-left: auto;
     margin-right: auto;
 
-    &__logo {
+    &__bigstar {
         position: absolute;
         width: calc(100% - 366px);
         height: calc(100% + 331px);
         left: calc(100% - 586px);
         right: calc(100% + 488px);
         top: calc(100% - 1133px);
+    }    
+    &__smallstar1 {
+        position: absolute;
+        width: 57px;
+        height: 57px;
+        left: 63px;
+        top: calc(100% - 706px);
+        color: 
+        rgb(188, 236, 48);
+    }
 
-        &_smallstar1 {
-            position: absolute;
-            width: 57px;
-            height: 57px;
-            left: 63px;
-            top: calc(100% - 706px);
-            color: 
-            rgb(188, 236, 48);
-        }
+    &__smallstar2 {
+        position: absolute;
+        width: 83px;
+        height: 83px;
+        left: calc(100% - 427px);
+        top: calc(100% - 232px);
+    }
 
-        &_smallstar2 {
-            position: absolute;
-            width: 83px;
-            height: 83px;
-            left: calc(100% - 427px);
-            top: calc(100% - 232px);
-        }
+    &__smallstar3 {
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        left: 156px;
+        top: calc(100% - 731px);
+    }
 
-        &_smallstar3 {
-            position: absolute;
-            width: 35px;
-            height: 35px;
-            left: 156px;
-            top: calc(100% - 731px);
-        }
-
-        &_smallstar4 {
-            position: absolute;
-            width: 37px;
-            height: 37px;
-            left: calc(100% - 492px);
-            top: calc(100% - 262px);
-            box-sizing: border-box;
-            color: rgb(188, 236, 48);
-        }
+    &__smallstar4 {
+        position: absolute;
+        width: 37px;
+        height: 37px;
+        left: calc(100% - 492px);
+        top: calc(100% - 262px);
+        box-sizing: border-box;
+        color: rgb(188, 236, 48);
     }
 }
 
@@ -83,7 +82,6 @@ button {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: flex-start;
-    padding-left: 120px;
     padding-top: 196px;
     
     &__heading {
@@ -159,7 +157,6 @@ button {
     position: relative;
     height: 1470px;
     background: rgb(32, 32, 39);
-    padding-left: 120px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -278,7 +275,7 @@ button {
 
         &_4 {
             background-image:
-             url(./gamesitepics/game_4.svg);
+             url(./gamesitepics/game_4.jpg);
             background-repeat: no-repeat;
         }
 
@@ -333,6 +330,7 @@ button {
     }
 
     &__item:hover {
-        border-radius: 0px;
+       width: 102%;
+       background-size: 102%;
     }
 }

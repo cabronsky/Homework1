@@ -11,38 +11,38 @@
 </head>
 <body>
     <header class="head">
-        <img class="head__logo" src="./gamesitepics/stargroup.svg" alt="stars">
-        <img class="head__logo_smallstar1" src="./gamesitepics/Star_2.svg" alt="smallstar">
-        <img class="head__logo_smallstar2" src="./gamesitepics/Star_4.svg" alt="smallstar">
-        <img class="head__logo_smallstar3" src="./gamesitepics/Star_4.svg" alt="smallstar">
-        <img class="head__logo_smallstar4" src="./gamesitepics/Star_2.svg" alt="smallstar">
+        <img class="head__bigstar" src="./gamesitepics/stargroup.svg" alt="stars">
+        <img class="head__smallstar1" src="./gamesitepics/Star_2.svg" alt="smallstar">
+        <img class="head__smallstar2" src="./gamesitepics/Star_4.svg" alt="smallstar">
+        <img class="head__smallstar3" src="./gamesitepics/Star_4.svg" alt="smallstar">
+        <img class="head__smallstar4" src="./gamesitepics/Star_2.svg" alt="smallstar">
         
-        <div class="header center">
+        <section class="header center">
             <h1 class="header__heading center">Добро пожаловать <br> на мой сайт мини-игр</h1>
             <p class="header__paragraph center">Тебе предстоит пройти несколько увлекательных игр. <br>Если готов, нажимай <b>«Поехали!»</b> и <b>приступай.</b></p>
-            <form class="center" action="#">
-            <button class="header__button" type="submit">Поехали!</button>
+            <form class="center" action="#game-box">
+            <button class="header__button center" type="submit">Поехали!</button>
             </form>
-        </div>
+        </section>
 
-        <div class="header__line">
-            <div class="header__line-content">
-                        
+            <div class="header__line">
+            
             </div>
-        </div>
     </header>  
 
-    <section class="game-box center">
+    <section class="game-box center" id="game-box">
         <div class="game-box__desc">
             <img class="game-box__star1" src="./gamesitepics/Star_1.svg" alt="star">
             <img class="game-box__star2" src="./gamesitepics/Star_green.svg" alt="star">
             <img class="game-box__star3" src="./gamesitepics/Star_green.svg" alt="star">
-            <h2 class="game-box__heading">Об играх</h2>
-            <p class="game-box__paragraph">В моей коллекции представлено 6 игр на разные темы.
-            <br>Игры несложные — в них может поиграть каждый.
-            <br>Все игры доступны для пользования.</p>
+            <section class="center">
+                <h2 class="game-box__heading">Об играх</h2>
+                <p class="game-box__paragraph">В моей коллекции представлено 6 игр на разные темы.
+                <br>Игры несложные — в них может поиграть каждый.
+                <br>Все игры доступны для пользования.</p>
+            </section>
         </div>
-        <div class="game center">
+        <section class="game center">
             <a class="game__item game__item_1" href="#">
                 <div class="game__item-box">
                     <p class="game__item-number">Игра №1</p> 
@@ -79,7 +79,7 @@
                     <h3 class="game__item-name">Генератор случайных цветов</h3> 
                  </div>
             </a>
-        </div>    
+        </section>    
     </section>
 </body>
 </html>

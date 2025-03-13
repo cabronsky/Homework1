@@ -31,7 +31,7 @@ button {
   margin-left: auto;
   margin-right: auto;
 }
-.head__logo {
+.head__bigstar {
   position: absolute;
   width: calc(100% - 366px);
   height: calc(100% + 331px);
@@ -39,7 +39,7 @@ button {
   right: calc(100% + 488px);
   top: calc(100% - 1133px);
 }
-.head__logo_smallstar1 {
+.head__smallstar1 {
   position: absolute;
   width: 57px;
   height: 57px;
@@ -47,21 +47,21 @@ button {
   top: calc(100% - 706px);
   color: rgb(188, 236, 48);
 }
-.head__logo_smallstar2 {
+.head__smallstar2 {
   position: absolute;
   width: 83px;
   height: 83px;
   left: calc(100% - 427px);
   top: calc(100% - 232px);
 }
-.head__logo_smallstar3 {
+.head__smallstar3 {
   position: absolute;
   width: 35px;
   height: 35px;
   left: 156px;
   top: calc(100% - 731px);
 }
-.head__logo_smallstar4 {
+.head__smallstar4 {
   position: absolute;
   width: 37px;
   height: 37px;
@@ -76,7 +76,6 @@ button {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: flex-start;
-  padding-left: 120px;
   padding-top: 196px;
 }
 .header__heading {
@@ -144,7 +143,6 @@ button {
   position: relative;
   height: 1470px;
   background: rgb(32, 32, 39);
-  padding-left: 120px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -247,7 +245,7 @@ button {
   background-repeat: no-repeat;
 }
 .game__item_4 {
-  background-image: url(./gamesitepics/game_4.svg);
+  background-image: url(./gamesitepics/game_4.jpg);
   background-repeat: no-repeat;
 }
 .game__item_5 {
@@ -292,5 +290,6 @@ button {
   text-align: left;
 }
 .game__item:hover {
-  border-radius: 0px;
+  width: 102%;
+  background-size: 102%;
 }/*# sourceMappingURL=style.css.map */
