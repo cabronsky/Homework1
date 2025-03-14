@@ -21,7 +21,7 @@ button {
     padding-right: calc(50% - 600px);
 }
 
-.head {
+.header {
     height: 800px;
     width: 100%;
     background:
@@ -77,7 +77,7 @@ button {
     }
 }
 
-.header {
+.head {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -124,6 +124,7 @@ button {
         line-height: 141.69%;
         letter-spacing: 0%;
         text-align: center;
+        text-decoration: none;
     }
 
     &__button:hover {
@@ -330,7 +331,6 @@ button {
     }
 
     &__item:hover {
-       width: 102%;
-       background-size: 102%;
+        transform: scale(1.1);
     }
 }
